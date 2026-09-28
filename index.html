@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Apothecary Diaries - Maomao's Workshop</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header id="hero">
+        <div class="card">
+            <h1>The Apothecary Diaries</h1>
+            <p class="sub">Maomao's Workshop, an interactive page from the rear palace</p>
+        </div>
+    </header>
+
+    <section class="content">
+        <h2>The Palace Scrolls</h2>
+        <p>Click the buttons, or press the left and right arrow keys on your keyboard, to turn the scroll.</p>
+
+        <figure>
+            <img id="galleryImage" src="images/kusuriya_4.jpg" alt="Maomao in the palace garden">
+            <figcaption id="galleryCaption">Maomao, chewing a leaf she probably should not.</figcaption>
+        </figure>
+
+        <div class="buttons">
+            <button onclick="previousImage()">Previous</button>
+            <button onclick="nextImage()">Next</button>
+        </div>
+    </section>
+
+    <section class="content">
+        <h2>The Poison Taster</h2>
+        <p>A bowl of soup has arrived for a consort. Someone has to taste it first.</p>
+
+        <div id="bowl">🍵</div>
+        <p id="poisonResult">The soup is waiting.</p>
+
+        <div class="buttons">
+            <button onclick="tasteSoup()">Taste the soup</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>CCT360 Lab 2 | Laksa Fadhil Yansen | Fan page made for a class lab assignment, artwork belongs to its creators</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
